@@ -42,7 +42,7 @@ export const Portfolio = (props) => {
       <section className=' mobile_height d-flex align-items-center'>
         <div className='container'>
           <div className='row justify-content-center'>
-            <div className='col-lg-6 order-1 order-lg-1  d-flex align-items-center'>
+            <div className='col-lg-6 order-1 order-lg-1 '>
               {Portfolio_Banner_Left_Data.map((val) => {
                 return <Portfolio_Banner_Left heading={val.heading} />;
               })}

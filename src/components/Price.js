@@ -22,14 +22,14 @@ export class Price extends Component {
         <section className='mobile_height d-flex align-items-center'>
           <div className='container'>
             <div className='row justify-content-center'>
-              <div className='col-lg-6 order-2 order-lg-1  d-flex align-items-center'>
+              <div className='col-lg-6 order-1 order-lg-1 d-flex align-items-center'>
                 {Price_Banner_Left_Data.map((val, index) => {
                   return (
                     <Price_Banner_Left key={index} heading={val.heading} />
                   );
                 })}
               </div>
-              <div className='col-lg-6  order-1 order-lg-2'>
+              <div className='col-lg-6  order-2 order-lg-2'>
                 {Price_Banner_Right_Data.map((val, index) => {
                   return <Price_Banner_Right key={index} imgsrc={val.imgsrc} />;
                 })}

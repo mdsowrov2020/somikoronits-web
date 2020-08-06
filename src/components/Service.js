@@ -66,8 +66,8 @@ export class Service extends Component {
           </div>
         </section>
 
-        <div className='service_role_svg py-5'>
-          <section className='py-5 service_role_section'>
+        <div className='service_role_svg pb-5'>
+          <section className='py-b service_role_section'>
             <div className='container'>
               {/* <div className='row justify-content-center'>
                 <div className='col-lg-6 text-center'>
@@ -110,7 +110,7 @@ export class Service extends Component {
             </div>
           </section>
         </div>
-        <section className='py-5'>
+        <section className='pb-5'>
           <div className='container'>
             <div className='row justify-content-center'>
               <div className='col-lg-6 text-center'>
@@ -140,7 +140,7 @@ export class Service extends Component {
         </section>
 
         <div className='what_data_svg'>
-          <section className='py-5 what_data_section'>
+          <section className='pb-5 what_data_section'>
             <div className='container'>
               <div className='row justify-content-center'>
                 {Sdata_Nine_Left.map((val, index) => {
